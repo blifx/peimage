@@ -1,0 +1,119 @@
+[19-Aug-2023 01:22:39 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/peimag96/public_html/companies/rede clip/layouts/models/modelCreatePost.php on line 29
+[19-Aug-2023 01:22:39 America/Sao_Paulo] PHP Warning:  getimagesize(../../../companies//logo.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 11
+[20-Aug-2023 15:59:55 America/Sao_Paulo] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreatePost.php:70
+Stack trace:
+#0 /home1/peimag96/public_html/companies/rede clip/layouts/actionCreatePost.php(6): include()
+#1 {main}
+  thrown in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreatePost.php on line 70
+[20-Aug-2023 18:50:08 America/Sao_Paulo] PHP Warning:  getimagesize(../../companies/rede clip/logo.png): Failed to open stream: No such file or directory in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 21
+[20-Aug-2023 18:50:08 America/Sao_Paulo] PHP Warning:  include(../../config.php): Failed to open stream: No such file or directory in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 23
+[20-Aug-2023 18:50:08 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 23
+[20-Aug-2023 18:50:08 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 47
+[20-Aug-2023 18:50:08 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 49
+[20-Aug-2023 18:50:08 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 51
+[20-Aug-2023 18:50:08 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 53
+[20-Aug-2023 18:50:08 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 237
+[20-Aug-2023 18:50:10 America/Sao_Paulo] PHP Warning:  getimagesize(../../companies/rede clip/logo.png): Failed to open stream: No such file or directory in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 21
+[20-Aug-2023 18:50:10 America/Sao_Paulo] PHP Warning:  include(../../config.php): Failed to open stream: No such file or directory in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 23
+[20-Aug-2023 18:50:10 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 23
+[20-Aug-2023 18:50:10 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 47
+[20-Aug-2023 18:50:10 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 49
+[20-Aug-2023 18:50:10 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 51
+[20-Aug-2023 18:50:10 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 53
+[20-Aug-2023 18:50:10 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 237
+[20-Aug-2023 18:50:11 America/Sao_Paulo] PHP Warning:  getimagesize(../../companies/rede clip/logo.png): Failed to open stream: No such file or directory in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 21
+[20-Aug-2023 18:50:11 America/Sao_Paulo] PHP Warning:  include(../../config.php): Failed to open stream: No such file or directory in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 23
+[20-Aug-2023 18:50:11 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 23
+[20-Aug-2023 18:50:11 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 47
+[20-Aug-2023 18:50:11 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 49
+[20-Aug-2023 18:50:11 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 51
+[20-Aug-2023 18:50:11 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 53
+[20-Aug-2023 18:50:11 America/Sao_Paulo] PHP Warning:  Undefined variable $__HTTP_HOST in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreatePost.php on line 237
+[20-Aug-2023 18:56:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreatePost.php:70
+Stack trace:
+#0 /home1/peimag96/public_html/companies/rede clip/layouts/actionCreatePost.php(6): include()
+#1 {main}
+  thrown in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreatePost.php on line 70
+[20-Aug-2023 19:03:14 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected variable "$sizeProduct", expecting ")" in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreatePost.php on line 87
+[20-Aug-2023 19:06:47 America/Sao_Paulo] PHP Warning:  Undefined array key "positionText" in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php on line 15
+[20-Aug-2023 19:06:47 America/Sao_Paulo] PHP Warning:  Undefined array key "parcela" in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php on line 18
+[20-Aug-2023 19:06:47 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_InvalidImageSourceException: File '/home1/peimag96/public_html/companies/rede clip/uploads/93090227664e28e779e8777.07652297.jpg' appears to be an invalid image source. in /home1/peimag96/public_html/libs/wideimage/WideImage.php:226
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/WideImage.php(184): WideImage::loadFromFile('/home1/peimag96...')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(145): WideImage::load('/home1/peimag96...')
+#2 /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php(83): ajustImagePaper('../uploads/9309...', 'com imagem', 400)
+#3 /home1/peimag96/public_html/companies/rede clip/layouts/actionCreateStories.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 226
+[06-Nov-2023 13:40:33 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/peimag96/public_html/companies/rede clip/layouts/models/modelCreateStories.php on line 29
+[06-Nov-2023 13:40:33 America/Sao_Paulo] PHP Warning:  getimagesize(../../../companies//logo.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/companies/rede clip/layouts/views/viewCreateStories.php on line 11
+[07-Nov-2023 10:32:37 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x00 0x00 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[07-Nov-2023 10:32:37 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/636767655654a3c75aa2540.43698314.jpg' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[07-Nov-2023 10:32:37 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[07-Nov-2023 10:32:37 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[07-Nov-2023 10:32:37 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_InvalidImageSourceException: File '/home1/peimag96/public_html/companies/rede clip/uploads/636767655654a3c75aa2540.43698314.jpg' appears to be an invalid image source. in /home1/peimag96/public_html/libs/wideimage/WideImage.php:226
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/WideImage.php(184): WideImage::loadFromFile('/home1/peimag96...')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(145): WideImage::load('/home1/peimag96...')
+#2 /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php(83): ajustImagePaper('../uploads/6367...', 'com imagem', 400)
+#3 /home1/peimag96/public_html/companies/rede clip/layouts/actionCreateStories.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 226
+[07-Nov-2023 10:43:17 America/Sao_Paulo] PHP Warning:  imagecropauto(): Color argument missing with threshold mode in /home1/peimag96/public_html/libs/peimageLib.php on line 119
+[07-Nov-2023 10:43:17 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 120
+[07-Nov-2023 10:43:17 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(): '../uploads/1400733086654a3ef57fa5f5.29724310.jpg' is not a valid PNG file in /home1/peimag96/public_html/libs/peimageLib.php on line 158
+[07-Nov-2023 10:43:17 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllersPositionsStories/textBelow.php on line 30
+[07-Nov-2023 10:43:17 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:119) in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php on line 136
+[07-Nov-2023 10:43:17 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php on line 145
+[07-Nov-2023 14:13:14 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(): '../uploads/1756131932654a702a1efcc9.86995490.jpg' is not a valid PNG file in /home1/peimag96/public_html/libs/peimageLib.php on line 158
+[07-Nov-2023 14:13:14 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllersPositionsStories/textBelow.php on line 30
+[07-Nov-2023 14:13:14 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:158) in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php on line 136
+[07-Nov-2023 14:13:14 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php on line 145
+[01-Dec-2023 10:34:21 America/Sao_Paulo] PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /home1/peimag96/public_html/libs/wideimage/Mapper/PNG.php on line 39
+[01-Dec-2023 10:34:21 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Empty input file in /home1/peimag96/public_html/libs/peimageLib.php on line 163
+[01-Dec-2023 10:34:21 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '../uploads/9864013546569e0dcb5aeb0.94351794.png' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 163
+[01-Dec-2023 10:34:21 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllersPositionsStories/textBelow.php on line 30
+[01-Dec-2023 10:34:21 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/wideimage/Mapper/PNG.php:39) in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php on line 136
+[01-Dec-2023 10:34:21 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php on line 145
+[01-Dec-2023 10:34:32 America/Sao_Paulo] PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /home1/peimag96/public_html/libs/wideimage/Mapper/PNG.php on line 39
+[01-Dec-2023 10:34:32 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Empty input file in /home1/peimag96/public_html/libs/peimageLib.php on line 163
+[01-Dec-2023 10:34:32 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '../uploads/19729612146569e0e7a25fa7.61530628.png' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 163
+[01-Dec-2023 10:34:32 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllersPositionsStories/textBelow.php on line 30
+[01-Dec-2023 10:34:32 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/wideimage/Mapper/PNG.php:39) in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php on line 136
+[01-Dec-2023 10:34:32 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php on line 145
+[08-Feb-2024 15:14:54 America/Sao_Paulo] PHP Warning:  getimagesize(../uploads/146181065765c51a1e351367.59117548.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[08-Feb-2024 15:14:54 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[08-Feb-2024 15:14:54 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[08-Feb-2024 15:14:54 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[08-Feb-2024 15:14:54 America/Sao_Paulo] PHP Warning:  getimagesize(../uploads/146181065765c51a1e351367.59117548.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreatePost.php on line 88
+[08-Feb-2024 15:14:54 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllersPositionsPosts/textAbovePosts.php on line 67
+[08-Feb-2024 15:14:54 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreatePost.php on line 137
+[08-Feb-2024 15:14:54 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreatePost.php on line 146
+[20-Feb-2024 14:28:23 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Feb-2024 14:28:23 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/10236858565d4e137df0891.18561708webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Feb-2024 14:28:23 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[20-Feb-2024 14:28:23 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[20-Feb-2024 14:28:50 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Feb-2024 14:28:50 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/19359576665d4e15224a317.45865283webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Feb-2024 14:28:50 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[20-Feb-2024 14:28:50 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[20-Feb-2024 14:29:03 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Feb-2024 14:29:03 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/171113313165d4e15f143030.62896687webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Feb-2024 14:29:03 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[20-Feb-2024 14:29:03 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[20-Feb-2024 14:30:47 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Feb-2024 14:30:47 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/169498145865d4e1c781cb10.63376821webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Feb-2024 14:30:47 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[20-Feb-2024 14:30:47 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[05-Mar-2024 09:36:20 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Mar-2024 09:36:20 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/11378648865e711c4e88813.94867565webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Mar-2024 09:36:20 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[05-Mar-2024 09:36:20 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[05-Mar-2024 09:36:20 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '94867565WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../uploads/1137...', '94867565WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../uploads/1137...', 100)
+#2 /home1/peimag96/public_html/companies/rede clip/layouts/controllers/controllerCreateStories.php(83): ajustImagePaper('../uploads/1137...', 'com imagem', 400)
+#3 /home1/peimag96/public_html/companies/rede clip/layouts/actionCreateStories.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79

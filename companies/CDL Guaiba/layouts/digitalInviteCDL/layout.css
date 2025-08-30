@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Square721 Cn BT';
+    src: url('/fonts/square721BTRomanCondensed/hinted-Square721BT-RomanCondensed.eot');
+    src: url('/fonts/square721BTRomanCondensed/hinted-Square721BT-RomanCondensed.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/square721BTRomanCondensed/hinted-Square721BT-RomanCondensed.woff2') format('woff2'),
+        url('/fonts/square721BTRomanCondensed/hinted-Square721BT-RomanCondensed.woff') format('woff'),
+        url('/fonts/square721BTRomanCondensed/hinted-Square721BT-RomanCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Square721 Cn BT';
+    src: url('/fonts/square721BTRomanCondensed/hinted-Square721BT-BoldCondensed.eot');
+    src: url('/fonts/square721BTRomanCondensed/hinted-Square721BT-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/square721BTRomanCondensed/hinted-Square721BT-BoldCondensed.woff2') format('woff2'),
+        url('/fonts/square721BTRomanCondensed/hinted-Square721BT-BoldCondensed.woff') format('woff'),
+        url('/fonts/square721BTRomanCondensed/hinted-Square721BT-BoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+fieldset {
+    border: 1px solid #2195a0;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 0px 0px #8cc5e2;
+}
+
+legend {
+    color: white;
+    text-shadow: 1px 1px 2px #3c3c3c;
+    font-size: 20px;
+}
+
+.required::before {
+    content: '*';
+    color: #eaeaea;
+    padding-right: 2px;
+}
+
+#content-img-generate{
+    font-family: 'Square721 Cn BT';
+}
+
+#capture {
+    display:none;
+    position: relative;
+    word-break: break-word;
+    font-family: 'Square721 Cn BT';
+}
+
+#container-invite{
+    position: absolute;
+    top: 50px;
+    display: flex;
+    width: 100%;
+    color: white;
+    letter-spacing: 8px;
+}
+
+#type-invite{
+    background: #e56386;
+    margin: 0 auto;
+    position: relative;
+    padding: 30px 95px 30px 95px;
+    font-size: 140px;
+    border-radius: 105px;
+    font-weight: bold;
+}
+
+#container-theme {
+    position: absolute;
+    top: 800px;
+    left: 70px;
+    font-size: 110px;
+    width: 1300px;
+}
+
+#title-event {
+    font-size: 120px;
+    font-weight: bold;
+    color:#343d42;
+}
+
+#title-event-line1 {
+    line-height: 1.2;
+    color: #e56386;
+}
+
+#title-event-line2 {
+    color: #343d42;
+}
+
+#container-date {
+    position: absolute;
+    top: 800px;
+    left: 1465px;
+    font-weight: bold;
+    font-size: 120px;
+    color: #343d42;
+    width: 940px;
+    text-align: right;
+}
+
+#date-day-week {
+    color: #e56386;
+}
+
+div#container-date > div {
+    line-height: 1.05;
+}
+
+#container-address {
+    position: absolute;
+    top: 1185px;
+    left: 1320px;
+    width: 1090px;
+    font-size: 70px;
+    text-align: right;
+    color: #e56386;
+}
+
+#container-address > div {
+    margin-top: 15px;
+}
+
+#container-description-evt {
+    position: absolute;
+    top: 1695px;
+    width: 2484;
+    height: 1225px;
+    display: flex;
+    color: #343d42;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#description-evt {
+    text-align: justify;
+    line-height: 1.1;
+    font-size: 100px;
+    display: flex;
+    margin: auto;
+    white-space: inherit;
+}
+
+#description-invite{
+    resize: vertical;
+}
+
+#container-icons {
+    width: 2484px;
+    position: absolute;
+    top: 3120px;
+    display: inline-flex;
+}
+
+#container-icons .icons{
+    margin: 0 auto;
+    margin-top: 61px;
+    cursor: pointer;
+}
+
+#touch-img {
+    position: absolute;
+    top: 2945px;
+    width: 2484px;
+}
+
+.touch-img {
+    fill:white;
+}
+
+#join {
+    position: absolute;
+    top: 3235px;
+    width: 2484px;
+    font-size: 110px;
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+.icons svg{
+    width: 280px;
+    height: 220px;
+    shape-rendering:geometricPrecision;
+    text-rendering:geometricPrecision;
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+}

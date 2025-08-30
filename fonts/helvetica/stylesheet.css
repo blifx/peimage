@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('hinted-HelveticaNeueLTStd-BdCn.woff2') format('woff2'),
+        url('hinted-HelveticaNeueLTStd-BdCn.woff') format('woff'),
+        url('hinted-HelveticaNeueLTStd-BdCn.ttf') format('truetype'),
+        url('hinted-HelveticaNeueLTStd-BdCn.svg#HelveticaNeueLTStd-BdCn') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Helvetica BQ';
+    src: url('hinted-NeueHelveticaBQ-Bold.woff2') format('woff2'),
+        url('hinted-NeueHelveticaBQ-Bold.woff') format('woff'),
+        url('hinted-NeueHelveticaBQ-Bold.ttf') format('truetype'),
+        url('hinted-NeueHelveticaBQ-Bold.svg#NeueHelveticaBQ-Bold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

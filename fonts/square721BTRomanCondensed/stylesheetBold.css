@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Square721 Cn BT';
+    src: url('hinted-Square721BT-BoldCondensed.eot');
+    src: url('hinted-Square721BT-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Square721BT-BoldCondensed.woff2') format('woff2'),
+        url('hinted-Square721BT-BoldCondensed.woff') format('woff'),
+        url('hinted-Square721BT-BoldCondensed.ttf') format('truetype'),
+        url('hinted-Square721BT-BoldCondensed.svg#Square721BT-BoldCondensed') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

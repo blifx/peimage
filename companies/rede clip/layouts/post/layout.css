@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Calibri';
+    src: 
+        url('../../../../fonts/calibri/hinted-Calibri.woff2') format('woff2'),
+        url('../../../../fonts/calibri/hinted-Calibri.woff') format('woff'),
+        url('../../../../fonts/calibri/hinted-Calibri.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: 
+        url('../../../../fonts/calibri/hinted-Calibri-Bold.woff2') format('woff2'),
+        url('../../../../fonts/calibri/hinted-Calibri-Bold.woff') format('woff'),
+        url('../../../../fonts/calibri/hinted-Calibri-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+
+#content-img-generate{
+    font-family: 'Calibri';
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#capture {
+    display:none;
+    position: relative;
+}
+
+#content-img{
+    position:absolute;
+    top:0px;
+    left:0px;
+    overflow-wrap: normal;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+#img-product {
+    max-width: 750x; /* Aumentado de 355px */
+    max-height: 475px; /* Aumentado de 300px */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Titullo e subtitulo do produto*/
+#description-product {
+    position: absolute;
+    text-align: center;
+    line-height: 35px;
+    top: 635px;
+
+}
+
+#title-img {
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+}
+
+#descr-img {
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Preço promocional do produto*/
+#container-price {
+    position: absolute;
+    top: 525px;
+}
+
+#price-off{/*de*/
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 181px;
+    left: 255px;
+}
+
+#price1 {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 181px;
+    padding-left: 50px;
+    margin: 0 auto;
+}
+
+#tachado{
+    height: 2px;
+    width: 167px;
+    left: 275px;
+    top: 206px;
+    position: absolute;
+    background: #c81917;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Preço atual do produto*/
+#img-bottom {
+    position: absolute;
+    text-align: center;
+    line-height: 35px;
+    top: 895px;
+}
+
+#price-on {/*POR*/
+    font-size: 37px;
+    font-weight: bold;
+    position: absolute;
+    top: 70px;
+    left: 172px;
+    color: black;
+    line-height: 30px;
+}
+
+#price2 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #c81917;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#obs-img {
+    width: fit-content;
+    background: white;
+    position: fixed;
+    left: 15px;
+    top: 1322px;
+    padding-right: 1px;
+}
+
+#und {
+    color: black;
+    position: absolute;
+    left: 510px;
+    top: 70px;
+    font-weight: bold;
+    font-size: 30px;
+    float: right;
+    text-transform: uppercase;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+
+#price-desc {
+    top: 710px;
+    left: 512px;
+    width: 95px; /* Largura do círculo */
+    height: 95px; /* Altura do círculo */
+    border-radius: 50%; /* Faz o elemento se tornar um círculo */
+    background: #c81917;
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+    justify-content: center; /* Centraliza conteúdo na vertical */
+    align-items: center; /* Centraliza conteúdo na horizontal */
+    color: white; /* Cor do texto */
+    font-family: "Calibri";
+    font-weight: bold;
+    position: absolute; /* Necessário para o ajuste fino da posição do texto */
+}
+
+
+#desc {
+    font-size: 25px;
+    height: 36px;
+    padding-top: 12px;
+    margin-left: -9px;
+}
+
+#num-perc-desc {
+    font-size: 45px;
+    line-height: 40px;
+}
+
+#percent {
+    font-size: 35px;
+    padding-top: 1px;
+}
+
+#center-desc{
+    padding-left: 5px;
+    margin: 0 auto;
+    display: inline-flex;
+    padding-bottom: 17px;
+}
+
+
+
+
+/* #container-price2 {
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+} */
+
+
+
+#date {
+    background: black;
+    left: 20px;
+    font-family: sans-serif;
+    padding: 3px;
+    font-size: 20px;
+}
+
+#img-center {
+    position: absolute;
+    top: 125px;
+   /* width: 960px;
+    height: 960px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

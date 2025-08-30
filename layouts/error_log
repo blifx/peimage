@@ -1,0 +1,834 @@
+[19-Aug-2023 17:14:35 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazPaisagem.php on line 262
+[21-Aug-2023 09:53:55 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[21-Aug-2023 09:53:56 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[21-Aug-2023 09:54:21 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[21-Aug-2023 09:54:21 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[21-Aug-2023 09:55:01 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[21-Aug-2023 09:55:01 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[21-Aug-2023 10:01:16 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[21-Aug-2023 10:01:17 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Warning:  move_uploaded_file(../companies//uploads/106124576764e371b94ac580.40724058.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 27
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpYzGOcu' to '../companies//uploads/106124576764e371b94ac580.40724058.jpg' in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 27
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(../companies//uploads/106124576764e371b94ac580.40724058.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 45
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/106124576764e371b94ac580.40724058.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 48
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 62
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 63
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//rodape1.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 67
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 125
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Warning:  file_get_contents(../companies//rodape1.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 195
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Warning:  unpack(): Type c: not enough input, need 1, have 0 in /home1/peimag96/public_html/libs/wideimage/vendor/de77/TGA.php on line 93
+[21-Aug-2023 11:16:25 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_InvalidImageSourceException: File '../companies//rodape1.png' appears to be an invalid image source. in /home1/peimag96/public_html/libs/wideimage/WideImage.php:226
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/WideImage.php(184): WideImage::loadFromFile('../companies//r...')
+#1 /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php(128): WideImage::load('../companies//r...')
+#2 /home1/peimag96/public_html/layouts/actionCreateFoto1.php(5): include('/home1/peimag96...')
+#3 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 226
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Warning:  move_uploaded_file(../companies//uploads/41795214864e371c1147798.05102306.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 27
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpINDXE3' to '../companies//uploads/41795214864e371c1147798.05102306.jpg' in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 27
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(../companies//uploads/41795214864e371c1147798.05102306.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 45
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/41795214864e371c1147798.05102306.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 48
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 62
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 63
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//rodape1.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 67
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 125
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Warning:  file_get_contents(../companies//rodape1.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 195
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Warning:  unpack(): Type c: not enough input, need 1, have 0 in /home1/peimag96/public_html/libs/wideimage/vendor/de77/TGA.php on line 93
+[21-Aug-2023 11:16:33 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_InvalidImageSourceException: File '../companies//rodape1.png' appears to be an invalid image source. in /home1/peimag96/public_html/libs/wideimage/WideImage.php:226
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/WideImage.php(184): WideImage::loadFromFile('../companies//r...')
+#1 /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php(128): WideImage::load('../companies//r...')
+#2 /home1/peimag96/public_html/layouts/actionCreateFoto1.php(5): include('/home1/peimag96...')
+#3 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 226
+[21-Aug-2023 11:16:59 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[21-Aug-2023 11:17:00 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Warning:  move_uploaded_file(../companies//uploads/151862814964e397e0909c61.37399639.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 27
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpjAA8nw' to '../companies//uploads/151862814964e397e0909c61.37399639.jpg' in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 27
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(../companies//uploads/151862814964e397e0909c61.37399639.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 45
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/151862814964e397e0909c61.37399639.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 48
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 62
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 63
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//rodape1.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 67
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 125
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Warning:  file_get_contents(../companies//rodape1.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 195
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Warning:  unpack(): Type c: not enough input, need 1, have 0 in /home1/peimag96/public_html/libs/wideimage/vendor/de77/TGA.php on line 93
+[21-Aug-2023 13:59:12 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_InvalidImageSourceException: File '../companies//rodape1.png' appears to be an invalid image source. in /home1/peimag96/public_html/libs/wideimage/WideImage.php:226
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/WideImage.php(184): WideImage::loadFromFile('../companies//r...')
+#1 /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php(128): WideImage::load('../companies//r...')
+#2 /home1/peimag96/public_html/layouts/actionCreateFoto1.php(5): include('/home1/peimag96...')
+#3 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 226
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Warning:  move_uploaded_file(../companies//uploads/209545068464e397f26aa923.25941391.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 27
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php3Wyddb' to '../companies//uploads/209545068464e397f26aa923.25941391.jpg' in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 27
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(../companies//uploads/209545068464e397f26aa923.25941391.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 45
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/209545068464e397f26aa923.25941391.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 48
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 62
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 63
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//rodape1.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 67
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 125
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Warning:  file_get_contents(../companies//rodape1.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 195
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Warning:  unpack(): Type c: not enough input, need 1, have 0 in /home1/peimag96/public_html/libs/wideimage/vendor/de77/TGA.php on line 93
+[21-Aug-2023 13:59:30 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_InvalidImageSourceException: File '../companies//rodape1.png' appears to be an invalid image source. in /home1/peimag96/public_html/libs/wideimage/WideImage.php:226
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/WideImage.php(184): WideImage::loadFromFile('../companies//r...')
+#1 /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php(128): WideImage::load('../companies//r...')
+#2 /home1/peimag96/public_html/layouts/actionCreateFoto1.php(5): include('/home1/peimag96...')
+#3 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 226
+[22-Aug-2023 14:03:15 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/54670931764e4ea5313f4d8.58068156): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[22-Aug-2023 14:03:15 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[22-Aug-2023 14:03:15 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[22-Aug-2023 14:03:15 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[22-Aug-2023 14:03:15 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/54670931764e4ea5313f4d8.58068156): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[22-Aug-2023 14:03:15 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[22-Aug-2023 14:03:15 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[22-Aug-2023 14:03:15 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[22-Aug-2023 17:22:10 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[22-Aug-2023 17:22:11 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[23-Aug-2023 10:52:58 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50 in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 45
+[23-Aug-2023 10:52:58 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '../companies/rede clip/uploads/187545542764e60f3ac20380.19033066.jpg' is not a valid JPEG file in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 45
+[23-Aug-2023 10:52:58 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 101
+[23-Aug-2023 10:52:59 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php:45) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 149
+[24-Aug-2023 18:17:26 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[24-Aug-2023 18:17:36 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[24-Aug-2023 18:17:48 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[26-Aug-2023 12:17:14 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/142732527964ea177a027ec6.59148011): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[26-Aug-2023 12:17:14 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[26-Aug-2023 12:17:14 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[26-Aug-2023 12:17:14 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[26-Aug-2023 12:17:14 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/142732527964ea177a027ec6.59148011): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[26-Aug-2023 12:17:14 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[26-Aug-2023 12:17:14 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[26-Aug-2023 12:17:14 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[26-Aug-2023 12:18:23 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/103852513364ea17bf5f6204.88468626): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[26-Aug-2023 12:18:23 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[26-Aug-2023 12:18:23 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[26-Aug-2023 12:18:23 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[26-Aug-2023 12:18:23 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/103852513364ea17bf5f6204.88468626): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[26-Aug-2023 12:18:23 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[26-Aug-2023 12:18:23 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[26-Aug-2023 12:18:23 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[26-Aug-2023 12:19:09 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/109437647564ea17ed27cb86.12904724): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[26-Aug-2023 12:19:09 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[26-Aug-2023 12:19:09 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[26-Aug-2023 12:19:09 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[26-Aug-2023 12:19:09 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/109437647564ea17ed27cb86.12904724): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[26-Aug-2023 12:19:09 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[26-Aug-2023 12:19:09 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[26-Aug-2023 12:19:09 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[29-Aug-2023 11:23:17 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Aug-2023 11:23:17 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/109977911664edff55dae586.55730117webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Aug-2023 11:23:17 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Aug-2023 11:23:17 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Aug-2023 11:23:17 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '55730117WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '55730117WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 270)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[29-Aug-2023 11:29:56 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Aug-2023 11:29:56 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/48544126864ee00e40812a4.06326207webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Aug-2023 11:29:56 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Aug-2023 11:29:56 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Aug-2023 11:29:56 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '06326207WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '06326207WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 270)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[29-Aug-2023 11:30:57 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/56159218864ee0121601a00.70431768): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[29-Aug-2023 11:30:57 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Aug-2023 11:30:57 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Aug-2023 11:30:57 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Aug-2023 11:30:57 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/56159218864ee0121601a00.70431768): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[29-Aug-2023 11:30:57 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[29-Aug-2023 11:30:57 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[29-Aug-2023 11:31:07 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/129921109064ee012b81dd21.82304597): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[29-Aug-2023 11:31:07 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Aug-2023 11:31:07 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Aug-2023 11:31:07 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Aug-2023 11:31:07 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/129921109064ee012b81dd21.82304597): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[29-Aug-2023 11:31:07 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[29-Aug-2023 11:31:07 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[29-Aug-2023 16:43:56 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[29-Aug-2023 16:43:57 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[02-Sep-2023 15:47:22 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazPaisagem.php on line 262
+[02-Sep-2023 15:47:39 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazPaisagem.php on line 262
+[02-Sep-2023 15:47:47 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/58033849964f383535d2f37.51442974): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[02-Sep-2023 15:47:47 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[02-Sep-2023 15:47:47 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[02-Sep-2023 15:47:47 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[02-Sep-2023 15:47:47 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/58033849964f383535d2f37.51442974): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[02-Sep-2023 15:47:47 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[02-Sep-2023 15:47:47 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[02-Sep-2023 15:47:47 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[02-Sep-2023 15:48:00 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/99636749264f38360983885.16878735): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[02-Sep-2023 15:48:00 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[02-Sep-2023 15:48:00 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[02-Sep-2023 15:48:00 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[02-Sep-2023 15:48:00 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/99636749264f38360983885.16878735): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[02-Sep-2023 15:48:00 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[02-Sep-2023 15:48:00 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[02-Sep-2023 15:48:00 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[04-Sep-2023 10:59:53 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Sep-2023 10:59:53 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/56892219064f5e2d9d803b1.90598989webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Sep-2023 10:59:53 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[04-Sep-2023 10:59:53 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[04-Sep-2023 10:59:53 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '90598989WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '90598989WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[04-Sep-2023 11:00:19 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Sep-2023 11:00:19 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/194959202664f5e2f3668a64.09836941webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Sep-2023 11:00:19 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[04-Sep-2023 11:00:19 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[04-Sep-2023 11:00:19 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '09836941WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '09836941WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[04-Sep-2023 15:56:10 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/50994650864f6284a688688.89454489): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[04-Sep-2023 15:56:10 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Sep-2023 15:56:10 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[04-Sep-2023 15:56:10 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[04-Sep-2023 15:56:10 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/50994650864f6284a688688.89454489): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[04-Sep-2023 15:56:10 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[04-Sep-2023 15:56:10 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[04-Sep-2023 15:56:10 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[05-Sep-2023 13:55:38 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Sep-2023 13:55:38 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/153284259164f75d8a406309.21880356webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Sep-2023 13:55:38 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[05-Sep-2023 13:55:38 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[05-Sep-2023 13:55:38 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '21880356WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '21880356WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 270)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[05-Sep-2023 14:17:49 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[05-Sep-2023 14:17:49 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[16-Sep-2023 14:04:18 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/20364756776505e012af7265.85252277): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[16-Sep-2023 14:04:18 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[16-Sep-2023 14:04:18 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[16-Sep-2023 14:04:18 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[16-Sep-2023 14:04:18 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/20364756776505e012af7265.85252277): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[16-Sep-2023 14:04:18 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[16-Sep-2023 14:04:18 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[16-Sep-2023 14:04:18 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[22-Sep-2023 15:17:52 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[23-Sep-2023 10:36:52 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[23-Sep-2023 10:36:52 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[30-Sep-2023 13:38:49 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[30-Sep-2023 13:51:09 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazPaisagem.php on line 262
+[30-Sep-2023 13:52:17 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/545488907651852416792b8.66802871): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[30-Sep-2023 13:52:17 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[30-Sep-2023 13:52:17 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[30-Sep-2023 13:52:17 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[30-Sep-2023 13:52:17 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/545488907651852416792b8.66802871): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[30-Sep-2023 13:52:17 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[30-Sep-2023 13:52:17 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[30-Sep-2023 13:52:22 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/4541450336518524610b3c1.87761389): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[30-Sep-2023 13:52:22 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[30-Sep-2023 13:52:22 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[30-Sep-2023 13:52:22 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[30-Sep-2023 13:52:22 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/4541450336518524610b3c1.87761389): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[30-Sep-2023 13:52:22 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[30-Sep-2023 13:52:22 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[30-Sep-2023 13:52:48 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazPaisagem.php on line 262
+[02-Oct-2023 15:16:17 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/peimag96/public_html/layouts/models/modelCreateCartazRetrato.php on line 9
+[02-Oct-2023 15:16:17 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//logo_branco.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 32
+[02-Oct-2023 15:16:17 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/232820061651b08f1f237c6.83728425): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[02-Oct-2023 15:16:17 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[02-Oct-2023 15:16:17 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[02-Oct-2023 15:16:17 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[02-Oct-2023 15:16:17 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/232820061651b08f1f237c6.83728425): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[02-Oct-2023 15:16:17 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo_branco.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 156
+[02-Oct-2023 15:16:18 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 193
+[02-Oct-2023 15:16:18 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[02-Oct-2023 15:16:18 America/Sao_Paulo] PHP Warning:  imagepng(../companies//downloads/232820061651b08f1f237c6.83728425.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 292
+[02-Oct-2023 15:16:18 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/dataBaseClass.php:50) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[02-Oct-2023 15:16:18 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/peimag96/public_html/layouts/models/modelCreateCartazRetrato.php on line 9
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//logo_branco.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 32
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/850690207651b08fa851c79.67861511): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/850690207651b08fa851c79.67861511): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo_branco.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 156
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 193
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  imagepng(../companies//downloads/850690207651b08fa851c79.67861511.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 292
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/dataBaseClass.php:50) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[02-Oct-2023 15:16:26 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[02-Oct-2023 15:30:07 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1397951218651b0c2f17fdf9.44837253): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[02-Oct-2023 15:30:07 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[02-Oct-2023 15:30:07 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[02-Oct-2023 15:30:07 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[02-Oct-2023 15:30:07 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1397951218651b0c2f17fdf9.44837253): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[02-Oct-2023 15:30:07 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[02-Oct-2023 15:30:07 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[02-Oct-2023 15:30:07 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[02-Oct-2023 15:30:20 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/349025046651b0c3c8b7298.09300191): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[02-Oct-2023 15:30:20 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[02-Oct-2023 15:30:20 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[02-Oct-2023 15:30:20 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[02-Oct-2023 15:30:20 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/349025046651b0c3c8b7298.09300191): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[02-Oct-2023 15:30:20 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[02-Oct-2023 15:30:20 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[02-Oct-2023 15:30:20 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[02-Oct-2023 15:31:46 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/396078375651b0c920d8867.95252146): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[02-Oct-2023 15:31:46 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[02-Oct-2023 15:31:46 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[02-Oct-2023 15:31:46 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[02-Oct-2023 15:31:46 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/396078375651b0c920d8867.95252146): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[02-Oct-2023 15:31:46 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[02-Oct-2023 15:31:46 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[02-Oct-2023 15:31:46 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[02-Oct-2023 15:32:40 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/658023616651b0cc8d1a520.66137939): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[02-Oct-2023 15:32:40 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[02-Oct-2023 15:32:40 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[02-Oct-2023 15:32:40 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[02-Oct-2023 15:32:40 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/658023616651b0cc8d1a520.66137939): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[02-Oct-2023 15:32:40 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[02-Oct-2023 15:32:40 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[02-Oct-2023 15:32:40 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[02-Oct-2023 15:32:53 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/767472231651b0cd5ed5564.42611458): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[02-Oct-2023 15:32:53 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[02-Oct-2023 15:32:53 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[02-Oct-2023 15:32:53 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[02-Oct-2023 15:32:53 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/767472231651b0cd5ed5564.42611458): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[02-Oct-2023 15:32:53 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[02-Oct-2023 15:32:54 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[02-Oct-2023 15:32:54 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[04-Oct-2023 16:12:30 America/Fortaleza] PHP Warning:  require_once(actionLogout.php): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/actionBasica.php on line 6
+[04-Oct-2023 16:12:30 America/Fortaleza] PHP Warning:  require_once(actionLogout.php): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/actionBasica.php on line 6
+[04-Oct-2023 16:12:30 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required 'actionLogout.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/peimag96/public_html/layouts/actionBasica.php on line 6
+[04-Oct-2023 16:12:33 America/Fortaleza] PHP Warning:  require_once(actionLogout.php): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/actionBasica.php on line 6
+[04-Oct-2023 16:12:33 America/Fortaleza] PHP Warning:  require_once(actionLogout.php): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/actionBasica.php on line 6
+[04-Oct-2023 16:12:33 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required 'actionLogout.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/peimag96/public_html/layouts/actionBasica.php on line 6
+[04-Oct-2023 16:13:11 America/Fortaleza] PHP Warning:  require_once(actionLogout.php): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/actionBasica.php on line 6
+[04-Oct-2023 16:13:11 America/Fortaleza] PHP Warning:  require_once(actionLogout.php): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/actionBasica.php on line 6
+[04-Oct-2023 16:13:11 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required 'actionLogout.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/peimag96/public_html/layouts/actionBasica.php on line 6
+[04-Oct-2023 16:19:49 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Oct-2023 16:19:49 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/165966752651dbad5b48130.86467044webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Oct-2023 16:19:49 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[04-Oct-2023 16:19:49 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[04-Oct-2023 16:19:49 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '86467044WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '86467044WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[04-Oct-2023 16:20:01 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Oct-2023 16:20:01 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/345196701651dbae1d2d521.72796851webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Oct-2023 16:20:01 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[04-Oct-2023 16:20:01 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[04-Oct-2023 16:20:01 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '72796851WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '72796851WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[04-Oct-2023 16:21:40 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Oct-2023 16:21:40 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/1642889897651dbb441ce7f7.20722255webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[04-Oct-2023 16:21:40 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[04-Oct-2023 16:21:40 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[04-Oct-2023 16:21:40 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '20722255WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '20722255WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[04-Oct-2023 17:06:56 America/Sao_Paulo] PHP Warning:  imagecropauto(): Color argument missing with threshold mode in /home1/peimag96/public_html/libs/peimageLib.php on line 119
+[04-Oct-2023 17:06:56 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 120
+[04-Oct-2023 17:06:56 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:119) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[04-Oct-2023 17:11:26 America/Sao_Paulo] PHP Warning:  imagecropauto(): Color argument missing with threshold mode in /home1/peimag96/public_html/libs/peimageLib.php on line 119
+[04-Oct-2023 17:11:26 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 120
+[04-Oct-2023 17:11:26 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:119) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[05-Oct-2023 15:14:11 America/Sao_Paulo] PHP Warning:  imagecropauto(): Color argument missing with threshold mode in /home1/peimag96/public_html/libs/peimageLib.php on line 119
+[05-Oct-2023 15:14:11 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 120
+[05-Oct-2023 15:14:11 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:119) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[05-Oct-2023 15:14:27 America/Sao_Paulo] PHP Warning:  imagecropauto(): Color argument missing with threshold mode in /home1/peimag96/public_html/libs/peimageLib.php on line 119
+[05-Oct-2023 15:14:27 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 120
+[05-Oct-2023 15:14:28 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:119) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[05-Oct-2023 15:14:47 America/Sao_Paulo] PHP Warning:  imagecropauto(): Color argument missing with threshold mode in /home1/peimag96/public_html/libs/peimageLib.php on line 119
+[05-Oct-2023 15:14:47 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 120
+[05-Oct-2023 15:14:47 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:119) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[05-Oct-2023 15:18:40 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 15:18:40 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/134289786651efe00ccbdf2.41760126webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 15:18:40 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[05-Oct-2023 15:18:40 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[05-Oct-2023 15:18:40 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '41760126WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '41760126WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[05-Oct-2023 15:41:45 America/Sao_Paulo] PHP Warning:  imagecropauto(): Color argument missing with threshold mode in /home1/peimag96/public_html/libs/peimageLib.php on line 119
+[05-Oct-2023 15:41:45 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 120
+[05-Oct-2023 15:41:45 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:119) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[05-Oct-2023 15:50:59 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x47 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 15:50:59 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/253357344651f0593a91741.99603213.gif' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 15:50:59 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[05-Oct-2023 15:50:59 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[05-Oct-2023 15:50:59 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x47 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 163
+[05-Oct-2023 15:50:59 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '../companies/rede clip/uploads/253357344651f0593a91741.99603213.gif' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 163
+[05-Oct-2023 15:50:59 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 207
+[05-Oct-2023 15:50:59 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:135) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[05-Oct-2023 15:50:59 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[05-Oct-2023 15:51:14 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 15:51:14 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/1674568995651f05a22b6504.62647699webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 15:51:14 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[05-Oct-2023 15:51:14 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[05-Oct-2023 15:51:14 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '62647699WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '62647699WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[05-Oct-2023 15:53:53 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x00 0x00 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 15:53:53 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/601154116651f06412f5a25.71247815avif' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 15:53:53 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[05-Oct-2023 15:53:53 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[05-Oct-2023 15:53:53 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_InvalidImageSourceException: File '/home1/peimag96/public_html/companies/rede clip/uploads/601154116651f06412f5a25.71247815avif' appears to be an invalid image source. in /home1/peimag96/public_html/libs/wideimage/WideImage.php:226
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/WideImage.php(184): WideImage::loadFromFile('/home1/peimag96...')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(145): WideImage::load('/home1/peimag96...')
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 226
+[05-Oct-2023 16:04:41 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 16:04:41 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/1422537556651f08c95c6871.58296172webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 16:04:41 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[05-Oct-2023 16:04:41 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[05-Oct-2023 16:04:41 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '58296172WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '58296172WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[05-Oct-2023 16:42:16 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 16:42:16 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/610875748651f1198d747c5.25999054webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[05-Oct-2023 16:42:16 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[05-Oct-2023 16:42:16 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[05-Oct-2023 16:42:16 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '25999054WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '25999054WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[16-Oct-2023 15:53:43 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[16-Oct-2023 15:53:43 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[19-Oct-2023 11:36:24 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/160811653465313ee88f1743.71355060): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[19-Oct-2023 11:36:24 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[19-Oct-2023 11:36:24 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[19-Oct-2023 11:36:24 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[19-Oct-2023 11:36:24 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/160811653465313ee88f1743.71355060): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[19-Oct-2023 11:36:24 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[19-Oct-2023 11:36:24 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[30-Oct-2023 16:13:52 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/393589490654000707349b7.65692003): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[30-Oct-2023 16:13:52 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[30-Oct-2023 16:13:52 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[30-Oct-2023 16:13:52 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[30-Oct-2023 16:13:52 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/393589490654000707349b7.65692003): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 99
+[30-Oct-2023 16:13:52 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 224
+[30-Oct-2023 16:13:52 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php:32) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 261
+[30-Oct-2023 16:13:52 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 266
+[30-Oct-2023 16:14:13 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/20169504665400085ef6a77.18289125): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[30-Oct-2023 16:14:13 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[30-Oct-2023 16:14:13 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[30-Oct-2023 16:14:13 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[30-Oct-2023 16:14:13 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/20169504665400085ef6a77.18289125): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 99
+[30-Oct-2023 16:14:13 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 224
+[30-Oct-2023 16:14:14 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php:32) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 261
+[30-Oct-2023 16:14:14 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 266
+[30-Oct-2023 16:14:23 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1906141526540008fcbc873.98724784): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[30-Oct-2023 16:14:23 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[30-Oct-2023 16:14:23 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[30-Oct-2023 16:14:23 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[30-Oct-2023 16:14:23 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1906141526540008fcbc873.98724784): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 99
+[30-Oct-2023 16:14:23 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 224
+[30-Oct-2023 16:14:23 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php:32) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 261
+[30-Oct-2023 16:14:23 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 266
+[30-Oct-2023 16:14:35 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php:32) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 261
+[30-Oct-2023 16:19:18 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php:32) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 261
+[30-Oct-2023 16:19:36 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php:32) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 261
+[20-Nov-2023 11:02:23 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[20-Nov-2023 11:02:24 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[20-Nov-2023 11:02:24 America/Sao_Paulo] PHP Warning:  imagettftext(): Could not find/open font in /home1/peimag96/public_html/layouts/controllers/temasFoto/tema1.php on line 100
+[20-Nov-2023 11:42:31 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Nov-2023 11:42:31 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/1266692176655b70573083a7.08909178webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Nov-2023 11:42:31 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[20-Nov-2023 11:42:31 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[20-Nov-2023 11:42:31 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '08909178WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '08909178WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[20-Nov-2023 11:48:17 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Nov-2023 11:48:17 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/1335676344655b71b1844b43.27736880webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Nov-2023 11:48:17 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[20-Nov-2023 11:48:17 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[20-Nov-2023 11:48:17 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '27736880WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '27736880WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[20-Nov-2023 11:49:06 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Nov-2023 11:49:06 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/48978014655b71e272e887.74399815webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Nov-2023 11:49:06 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[20-Nov-2023 11:49:06 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[20-Nov-2023 11:49:06 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '74399815WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '74399815WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[20-Nov-2023 16:31:38 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1357942692655bb41aa076e3.62843730): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[20-Nov-2023 16:31:38 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[20-Nov-2023 16:31:38 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[20-Nov-2023 16:31:38 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[20-Nov-2023 16:31:38 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1357942692655bb41aa076e3.62843730): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[20-Nov-2023 16:31:38 America/Sao_Paulo] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 99
+[20-Nov-2023 16:31:38 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 100
+[20-Nov-2023 16:31:38 America/Sao_Paulo] PHP Warning:  imagerotate() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 102
+[20-Nov-2023 16:31:38 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[20-Nov-2023 16:31:38 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[22-Nov-2023 15:20:44 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1272447026655e467ce87290.01099939): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[22-Nov-2023 15:20:44 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[22-Nov-2023 15:20:44 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[22-Nov-2023 15:20:44 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[22-Nov-2023 15:20:44 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1272447026655e467ce87290.01099939): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[22-Nov-2023 15:20:44 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[22-Nov-2023 15:20:45 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[22-Nov-2023 15:20:45 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[22-Nov-2023 15:21:13 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/252574801655e4699257d69.44415459): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[22-Nov-2023 15:21:13 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[22-Nov-2023 15:21:13 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[22-Nov-2023 15:21:13 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[22-Nov-2023 15:21:13 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/252574801655e4699257d69.44415459): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[22-Nov-2023 15:21:13 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[22-Nov-2023 15:21:13 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[22-Nov-2023 15:21:13 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[22-Nov-2023 15:23:05 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/847048172655e470921fe00.86761015): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[22-Nov-2023 15:23:05 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[22-Nov-2023 15:23:05 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[22-Nov-2023 15:23:05 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[22-Nov-2023 15:23:05 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/847048172655e470921fe00.86761015): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[22-Nov-2023 15:23:05 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[22-Nov-2023 15:23:05 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[22-Nov-2023 15:23:05 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[22-Nov-2023 15:23:17 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/441587806655e47153b98d9.05293301): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[22-Nov-2023 15:23:17 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[22-Nov-2023 15:23:17 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[22-Nov-2023 15:23:17 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[22-Nov-2023 15:23:17 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/441587806655e47153b98d9.05293301): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[22-Nov-2023 15:23:17 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[22-Nov-2023 15:23:17 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[22-Nov-2023 15:23:17 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[04-Dec-2023 17:35:20 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[04-Dec-2023 17:35:21 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[04-Dec-2023 17:35:43 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[04-Dec-2023 17:35:45 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[04-Dec-2023 17:35:45 America/Sao_Paulo] PHP Warning:  imagecolorallocate() expects parameter 2 to be int, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 450
+[04-Dec-2023 17:35:45 America/Sao_Paulo] PHP Warning:  imagecolorallocate() expects parameter 2 to be int, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 451
+[04-Dec-2023 17:36:09 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[04-Dec-2023 17:36:11 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[04-Dec-2023 17:36:11 America/Sao_Paulo] PHP Warning:  imagecolorallocate() expects parameter 2 to be int, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 450
+[04-Dec-2023 17:36:11 America/Sao_Paulo] PHP Warning:  imagecolorallocate() expects parameter 2 to be int, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 451
+[16-Dec-2023 11:50:31 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[16-Dec-2023 11:51:08 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[16-Dec-2023 11:52:53 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php:32) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 261
+[16-Dec-2023 11:52:59 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php:32) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 261
+[16-Dec-2023 11:53:20 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php:32) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 261
+[16-Dec-2023 11:53:44 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php:32) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazParcelado.php on line 261
+[26-Dec-2023 10:52:01 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50 in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 45
+[26-Dec-2023 10:52:01 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '../companies/rede clip/uploads/1667188176658ada81c2d852.97869536.jpg' is not a valid JPEG file in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 45
+[26-Dec-2023 10:52:01 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 125
+[26-Dec-2023 10:52:02 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php:45) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto1.php on line 149
+[26-Dec-2023 11:02:22 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[26-Dec-2023 11:02:24 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[26-Dec-2023 12:07:35 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/peimag96/public_html/layouts/models/modelCreateFoto.php on line 17
+[26-Dec-2023 12:07:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 145
+[26-Dec-2023 12:07:35 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[26-Dec-2023 12:07:35 America/Sao_Paulo] PHP Warning:  move_uploaded_file(../companies//uploads/1401665053658aec371bf692.35263502.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 291
+[26-Dec-2023 12:07:35 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpCpNQdb' to '../companies//uploads/1401665053658aec371bf692.35263502.jpg' in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 291
+[26-Dec-2023 12:07:35 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/1401665053658aec371bf692.35263502.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 294
+[26-Dec-2023 12:07:35 America/Sao_Paulo] PHP Warning:  file_get_contents(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 195
+[26-Dec-2023 12:07:35 America/Sao_Paulo] PHP Warning:  unpack(): Type c: not enough input, need 1, have 0 in /home1/peimag96/public_html/libs/wideimage/vendor/de77/TGA.php on line 93
+[26-Dec-2023 12:07:35 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_InvalidImageSourceException: File '../companies//logo_pequeno.png' appears to be an invalid image source. in /home1/peimag96/public_html/libs/wideimage/WideImage.php:226
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/WideImage.php(184): WideImage::loadFromFile('../companies//l...')
+#1 /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php(314): WideImage::load('../companies//l...')
+#2 /home1/peimag96/public_html/layouts/actionCreateFoto.php(5): include('/home1/peimag96...')
+#3 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 226
+[26-Dec-2023 12:08:52 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[26-Dec-2023 12:08:54 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[26-Dec-2023 12:08:54 America/Sao_Paulo] PHP Warning:  imagettftext(): Could not find/open font in /home1/peimag96/public_html/layouts/controllers/temasFoto/tema1.php on line 100
+[29-Dec-2023 11:04:35 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:04:35 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/763562904658ed1f396e8f3.20403504webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:04:35 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Dec-2023 11:04:35 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Dec-2023 11:04:35 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '20403504WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '20403504WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[29-Dec-2023 11:04:42 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:04:42 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/1242240266658ed1fade0b52.28776046webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:04:42 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Dec-2023 11:04:42 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Dec-2023 11:04:42 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '28776046WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '28776046WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[29-Dec-2023 11:05:14 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:05:14 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/1892950926658ed21a01de92.15647476webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:05:14 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Dec-2023 11:05:14 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Dec-2023 11:05:14 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '15647476WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '15647476WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[29-Dec-2023 11:05:51 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:05:51 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/291227171658ed23fb095c2.81788427webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:05:51 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Dec-2023 11:05:51 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Dec-2023 11:05:51 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '81788427WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '81788427WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[29-Dec-2023 11:07:18 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:07:18 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/2023437448658ed296708624.84777146webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:07:18 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Dec-2023 11:07:18 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Dec-2023 11:07:18 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '84777146WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '84777146WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[29-Dec-2023 11:15:32 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:15:32 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/757056297658ed4840bd6a6.80249181webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:15:32 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Dec-2023 11:15:32 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Dec-2023 11:15:32 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '80249181WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '80249181WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[29-Dec-2023 11:16:47 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:16:47 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/1253230661658ed4cf74c1a2.88194428webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[29-Dec-2023 11:16:47 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[29-Dec-2023 11:16:47 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[29-Dec-2023 11:16:47 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '88194428WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '88194428WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[08-Jan-2024 11:25:22 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1991093484659c05d2b272a4.69414827): Failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[08-Jan-2024 11:25:22 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type bool in /home1/peimag96/public_html/libs/peimageLib.php on line 117
+[08-Jan-2024 11:25:22 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php:135
+Stack trace:
+#0 /home1/peimag96/public_html/libs/peimageLib.php(135): imagecreatefromjpeg('')
+#1 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'sem imagem', 220)
+#2 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#3 {main}
+  thrown in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[08-Jan-2024 11:25:31 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/875499203659c05db12dce8.27788774): Failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[08-Jan-2024 11:25:31 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type bool in /home1/peimag96/public_html/libs/peimageLib.php on line 117
+[08-Jan-2024 11:25:31 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php:135
+Stack trace:
+#0 /home1/peimag96/public_html/libs/peimageLib.php(135): imagecreatefromjpeg('')
+#1 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'sem imagem', 220)
+#2 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#3 {main}
+  thrown in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[08-Jan-2024 11:27:51 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1614310947659c0667778be2.73826264): Failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[08-Jan-2024 11:27:51 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type bool in /home1/peimag96/public_html/libs/peimageLib.php on line 117
+[08-Jan-2024 11:27:51 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php:135
+Stack trace:
+#0 /home1/peimag96/public_html/libs/peimageLib.php(135): imagecreatefromjpeg('')
+#1 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'sem imagem', 220)
+#2 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#3 {main}
+  thrown in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[09-Jan-2024 11:45:11 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[09-Jan-2024 11:45:11 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/2103451258659d5bf79d6402.98029868webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[09-Jan-2024 11:45:11 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[09-Jan-2024 11:45:11 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[09-Jan-2024 11:45:11 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '98029868WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '98029868WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[09-Jan-2024 11:45:21 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[09-Jan-2024 11:45:21 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/205368983659d5c0120e737.35712751webp' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[09-Jan-2024 11:45:21 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[09-Jan-2024 11:45:21 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[09-Jan-2024 11:45:21 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_UnsupportedFormatException: Format '35712751WEBP' is not supported. in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php:79
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/Image.php(159): WideImage_MapperFactory::selectMapper('../companies/re...', '35712751WEBP')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(161): WideImage_Image->saveToFile('../companies/re...', 100)
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 220)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/MapperFactory.php on line 79
+[09-Jan-2024 11:45:34 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/145317495659d5c0e424069.70433935): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[09-Jan-2024 11:45:34 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[09-Jan-2024 11:45:34 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[09-Jan-2024 11:45:34 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[09-Jan-2024 11:45:34 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/145317495659d5c0e424069.70433935): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[09-Jan-2024 11:45:34 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[09-Jan-2024 11:45:34 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[09-Jan-2024 11:45:34 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[09-Jan-2024 11:45:55 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1068443135659d5c23394522.02638348): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[09-Jan-2024 11:45:55 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[09-Jan-2024 11:45:55 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[09-Jan-2024 11:45:55 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[09-Jan-2024 11:45:55 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/1068443135659d5c23394522.02638348): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[09-Jan-2024 11:45:55 America/Sao_Paulo] PHP Warning:  imagecopymerge() expects parameter 2 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 241
+[09-Jan-2024 11:45:55 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[09-Jan-2024 11:45:55 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[10-Jan-2024 15:42:46 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x00 0x00 in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[10-Jan-2024 15:42:46 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/home1/peimag96/public_html/companies/rede clip/uploads/133605215659ee526cb91b4.21136261avif' is not a valid JPEG file in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[10-Jan-2024 15:42:46 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[10-Jan-2024 15:42:46 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[10-Jan-2024 15:42:46 America/Sao_Paulo] PHP Fatal error:  Uncaught WideImage_InvalidImageSourceException: File '/home1/peimag96/public_html/companies/rede clip/uploads/133605215659ee526cb91b4.21136261avif' appears to be an invalid image source. in /home1/peimag96/public_html/libs/wideimage/WideImage.php:226
+Stack trace:
+#0 /home1/peimag96/public_html/libs/wideimage/WideImage.php(184): WideImage::loadFromFile('/home1/peimag96...')
+#1 /home1/peimag96/public_html/libs/peimageLib.php(145): WideImage::load('/home1/peimag96...')
+#2 /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php(95): ajustImagePaper('../companies/re...', 'com imagem', 270)
+#3 /home1/peimag96/public_html/layouts/actionCreateCartazRetrato.php(6): include('/home1/peimag96...')
+#4 {main}
+  thrown in /home1/peimag96/public_html/libs/wideimage/WideImage.php on line 226
+[18-Jan-2024 12:16:34 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/122795042365a940d2b0bc10.90730025): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[18-Jan-2024 12:16:34 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[18-Jan-2024 12:16:34 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[18-Jan-2024 12:16:34 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[18-Jan-2024 12:16:34 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/122795042365a940d2b0bc10.90730025): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[18-Jan-2024 12:16:34 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[18-Jan-2024 12:16:34 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298
+[23-Jan-2024 15:41:50 America/Sao_Paulo] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 254
+[23-Jan-2024 15:41:52 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php:254) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto.php on line 422
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  move_uploaded_file(../companies//uploads/83409142565ba5797405bc0.93203573.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 28
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpS2qHvA' to '../companies//uploads/83409142565ba5797405bc0.93203573.jpg' in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 28
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(../companies//uploads/83409142565ba5797405bc0.93203573.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 43
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/83409142565ba5797405bc0.93203573.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 45
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 61
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 62
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 103
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  imagecopy() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 105
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php:28) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 119
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  imagepng(../companies//downloads/83409142565ba5797405bc0.93203573.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 173
+[31-Jan-2024 11:22:15 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/views/viewCreateFoto2.php on line 6
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  move_uploaded_file(../companies//uploads/186639242665ba579c5635a0.36771489.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 28
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpqxD69L' to '../companies//uploads/186639242665ba579c5635a0.36771489.jpg' in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 28
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(../companies//uploads/186639242665ba579c5635a0.36771489.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 43
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//uploads/186639242665ba579c5635a0.36771489.jpg): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 45
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 61
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo_pequeno.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 62
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 103
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  imagecopy() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 105
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php:28) in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 119
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  imagepng(../companies//downloads/186639242665ba579c5635a0.36771489.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateFoto2.php on line 173
+[31-Jan-2024 11:22:20 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/views/viewCreateFoto2.php on line 6
+[14-Feb-2024 14:04:03 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[14-Feb-2024 14:04:37 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[14-Feb-2024 17:03:28 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[14-Feb-2024 17:04:33 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[14-Feb-2024 17:05:01 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[15-Feb-2024 14:52:55 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/peimag96/public_html/layouts/models/modelCreateCartazAviso.php on line 9
+[15-Feb-2024 14:52:55 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//logo_branco.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 18
+[15-Feb-2024 14:52:55 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo_branco.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 60
+[15-Feb-2024 14:52:55 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 85
+[15-Feb-2024 14:52:55 America/Sao_Paulo] PHP Warning:  imagepng(../companies//downloads/54368340665ce4f77b80bc7.54098720.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 115
+[15-Feb-2024 14:52:55 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/dataBaseClass.php:50) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 116
+[15-Feb-2024 14:52:55 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[15-Feb-2024 14:52:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/peimag96/public_html/layouts/models/modelCreateCartazAviso.php on line 9
+[15-Feb-2024 14:52:59 America/Sao_Paulo] PHP Warning:  imagecreatefrompng(../companies//logo_branco.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 18
+[15-Feb-2024 14:52:59 America/Sao_Paulo] PHP Warning:  getimagesize(../companies//logo_branco.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 60
+[15-Feb-2024 14:52:59 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 85
+[15-Feb-2024 14:52:59 America/Sao_Paulo] PHP Warning:  imagepng(../companies//downloads/91224024065ce4f7bdb6039.53414691.png): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 115
+[15-Feb-2024 14:52:59 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/dataBaseClass.php:50) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 116
+[15-Feb-2024 14:52:59 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[15-Feb-2024 14:53:19 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[15-Feb-2024 14:53:37 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[15-Feb-2024 14:54:02 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[17-Feb-2024 12:45:26 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[17-Feb-2024 12:45:57 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[17-Feb-2024 12:46:24 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[17-Feb-2024 12:46:37 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazAviso.php on line 121
+[07-Mar-2024 09:34:36 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/203936058265e9b45c42dde3.85803440): failed to open stream: No such file or directory in /home1/peimag96/public_html/libs/peimageLib.php on line 116
+[07-Mar-2024 09:34:36 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home1/peimag96/public_html/libs/peimageLib.php on line 135
+[07-Mar-2024 09:34:36 America/Sao_Paulo] PHP Warning:  imagecropauto() expects parameter 1 to be resource, bool given in /home1/peimag96/public_html/libs/peimageLib.php on line 136
+[07-Mar-2024 09:34:36 America/Sao_Paulo] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/libs/peimageLib.php on line 139
+[07-Mar-2024 09:34:36 America/Sao_Paulo] PHP Warning:  getimagesize(../companies/rede clip/uploads/203936058265e9b45c42dde3.85803440): failed to open stream: No such file or directory in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 96
+[07-Mar-2024 09:34:36 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/peimag96/public_html/libs/peimageLib.php:116) in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 293
+[07-Mar-2024 09:34:36 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home1/peimag96/public_html/layouts/controllers/controllerCreateCartazRetrato.php on line 298

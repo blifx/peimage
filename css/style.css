@@ -1,0 +1,344 @@
+body, html{
+	padding: 0;
+	margin: 0;
+	font-family: 'Sniglet', cursive;
+	background-color: #98d5f4;
+}
+
+body, html, #waterform{
+	height: 100%;
+    min-height: 100% !important;
+}
+
+form#waterform {
+    margin-top: 5px;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: -1px;
+}
+
+/* Animation webkit */
+@-webkit-keyframes myfirst
+{
+	0% {margin-left: -235px}
+	90% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+/* Animation */
+@keyframes myfirst
+{
+	0% {margin-left: -235px}
+	70% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+header{
+    background-image: url(../images/onda.png);
+    position: relative;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-color: #ffffff;
+}
+
+#senha{
+       -webkit-text-security: disc;
+      }
+
+#msg-error{
+	text-align: center;
+    	margin-top: 15px;
+    	background-color: rgb(213, 45, 45);
+	border: solid 3px #98d4f3;
+	padding: 10px;
+}
+
+#msg-sucess{
+	text-align: center;
+    	margin-top: 15px;
+    	background-color: #77bde0;
+	border: solid 3px #98d4f3;
+	padding: 10px;
+}
+
+.fish{
+	background-image: url('../images/fish.png');
+	width: 235px;
+	height: 104px;
+	margin-left: -235px;
+	position: absolute;	
+	animation: myfirst 24s;
+	-webkit-animation: myfirst 24s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+#fish{
+	top: 45px;
+}
+
+#fish2{
+	top: 400px;
+	animation-delay: 12s;
+	-webkit-animation-delay: 12s;
+}
+
+#fish3{
+	top: 680px;
+	animation-delay: 24s;
+	-webkit-animation-delay: 24s;
+}
+
+#fish4{
+	top: 960px;
+	animation-delay: 36s;
+	-webkit-animation-delay: 36s;
+}
+
+#content{
+	background-color: #98d5f4;
+    overflow: hidden;
+    position: relative;
+	padding-bottom: 25px;
+}
+
+form{
+	margin: 0 auto;
+    width: 90%;
+    padding-top: 0px;
+    color: white;
+    position: relative;
+    min-width: 300px;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+#tema{
+	padding: 10px;
+	width: 200px;
+	-moz-border-radius: 20x;
+	-webkit-border-radius: 20px; 
+	border-radius: 20px;
+}
+
+.campanha{
+	padding: 10px;
+	width: 200px;
+	-moz-border-radius: 20x;
+	-webkit-border-radius: 20px; 
+	border-radius: 20px;
+}
+
+.layouts-selects{
+	border: solid 3px #77bde0;
+}
+
+#produto, #posts, #paper {
+	border: solid 3px #77bde0;
+}
+
+#logoCompany {
+	height: 150px;
+    display: flex;
+    align-items: center;
+	padding-bottom: 40px;
+    padding-top: 35px;
+    margin-bottom: -1px;
+}
+#logoCompany img{
+    text-align: center;
+    height: auto;
+	margin: 0 auto;
+	max-height: 120px;
+	max-width: 80% !important;
+}
+#logoCompany h1 {
+    width: 260px;
+    margin: 0 auto;
+}
+
+#logoPeimage{
+	text-align: right; 
+	margin:20px;
+}
+
+input, textarea, select{
+	width: 100%!important;
+	border-radius: 0px!important;
+	outline: none;
+	padding: 10px;
+	font-family: 'Sniglet', cursive;
+	font-size: 1em;
+	color: #676767;
+	border: solid 3px #98d4f3;
+	transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+input[type="button"]{
+	background-color: #006064;
+	color: white;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 1.29em;
+	font-family: 'Sniglet', cursive;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.message{
+	color:#676767;
+	border: 2px dashed #77bde0;
+	border-radius: 0px;
+}
+
+input, text, textarea, select{
+	background-color: white;
+}
+
+.select-selected:after {
+	position: absolute;
+	content: "";
+	top: 14px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-color: #fff transparent transparent transparent;
+}
+
+input:focus, textarea:focus, select:focus{
+	border: solid 3px #77bde0;	
+}
+
+textarea{
+	line-height:10px;
+	height: 100px;	
+	resize: none; 
+	overflow: auto;
+}
+input[type="submit"]{
+	background-color: #006064;
+	color: white;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 1.29em;
+	font-family: 'Sniglet', cursive;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+input[type="submit"]:hover, input[type="button"]:hover{
+	background-color: #00BCD4;	
+}
+
+link:hover{
+	background-color: #00BCD4;
+}
+
+label{
+	font-size: 1.29em;
+	margin-top: 20px;
+	padding-left: 4px;
+	text-shadow: 1px 1px 2px #3c3c3c;
+	color:white;
+}
+
+.button {
+	width: 100%;
+	display: inline-block;
+	font-family: 'Sniglet', cursive;
+	font-size: 1.2em;
+	color: #ffffff;
+	padding: 8px 0 8px 0;
+	text-decoration: none;
+	background-color: #006064;
+	-moz-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 3px rgba(255,255,255,0);
+	-webkit-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 3px rgba(255,255,255,0);
+	box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 3px rgba(255,255,255,0);
+	margin-bottom: 10px;
+}
+
+.button:hover {
+	background: #00BCD4;
+}
+
+.button-disabled{
+	background-color: #6bb2c9 !important;
+}
+.button-disabled:hover{
+	background-color: #6bb2c9 !important;
+}
+
+a {
+	color: #006064;
+	cursor:pointer; 
+}
+
+#img_theme img {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.msg-box-header{
+	color:#006064;
+	margin-top:10px;
+	margin-left:10px;
+	background-color:#98d4f3; 
+	width:270px;
+	padding:5px;
+	text-align:center;
+}
+
+textarea:read-only,
+select[readonly],
+:disabled {
+	background: #e2e2e2;
+}
+
+::placeholder {
+    color: #b3b2b2;
+}
+
+label.error {
+    color: #404040;
+    font-size: 13px;
+    text-shadow: 1px 1px 7px white;
+}
+
+#link-support{
+	margin-top: 25px;
+	text-align: center;
+}
+
+#link-support a{
+	text-decoration: none;
+}
+
+#link-support a:hover{
+	text-decoration: underline;
+}
+
+/*
+TODO adicionar class ao inves de asterisco nos campos obrigatorios
+label.required::after {
+    content: '*';
+    color: #2195a0;
+}
+*/
